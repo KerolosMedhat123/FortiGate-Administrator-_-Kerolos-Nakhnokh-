@@ -8,12 +8,14 @@
 
 ### الفصول المتاحة:
 
-1.  **[الفصل الأول: مقدمة إلى FortiGate](Chapter_01_Introduction_to_FortiGate.md)** )done( 
+1.  **[الفصل الأول: مقدمة إلى FortiGate](Chapter_01_Introduction_to_FortiGate.md)** 
+ (Done)
     -   تعريف FortiGate ومكانته في عالم الأمن السيبراني.
     -   مقارنة سريعة بين FortiGate و Cisco ASA.
     -   تاريخ Fortinet وعائلة منتجاتها.
 
-2.  **[الفصل الثاني: التكوين الأساسي](Chapter_02_Basic_Configuration.md)** )done( 
+2.  **[الفصل الثاني: التكوين الأساسي](Chapter_02_Basic_Configuration.md)** 
+ (Done)
     -   الإعدادات الأولية والوصول إلى FortiGate.
     -   أوضاع التشغيل (NAT/Route, Transparent).
     -   تكوين الواجهات (Interfaces) والـ VLANs.
@@ -21,7 +23,7 @@
     -   إدارة الوصول الإداري، حفظ واستعادة التكوين، وتحديث الـ Firmware.
     -   خدمات FortiGuard.
 
-3.  **[الفصل الثالث: سياسات جدار الحماية (Firewall Policies)](Chapter_03_Firewall_Policies.md)**
+4.  **[الفصل الثالث: سياسات جدار الحماية (Firewall Policies)](Chapter_03_Firewall_Policies.md)**
     -   مقدمة لسياسات جدار الحماية وأنواعها.
     -   تكوين سياسات جدار الحماية.
     -   تفاصيل مطابقة السياسات.
@@ -29,19 +31,19 @@
     -   ترتيب السياسات وتحسينها.
     -   Network Address Translation (NAT).
 
-4.  **[الفصل الرابع: المصادقة (Authentication)](Chapter_04_Authentication.md)**
+5.  **[الفصل الرابع: المصادقة (Authentication)](Chapter_04_Authentication.md)**
     -   المستخدمون والمجموعات المحلية.
     -   المصادقة عن بُعد (RADIUS, LDAP, TACACS+).
     -   المصادقة الثنائية (2FA) و FortiToken.
     -   تكامل SAML SSO.
     -   إدارة الضيوف.
 
-5.  **[الفصل الخامس: الشبكات الافتراضية الخاصة (VPNs)](Chapter_05_VPNs.md)**
+6.  **[الفصل الخامس: الشبكات الافتراضية الخاصة (VPNs)](Chapter_05_VPNs.md)**
     -   SSL VPN (الوصول عن بُعد).
     -   IPsec VPN (من موقع إلى موقع).
     -   استكشاف أخطاء VPN وإصلاحها.
 
-6.  **[الفصل السادس: ملفات تعريف الأمان (Security Profiles - UTM Features)](Chapter_06_Security_Profiles.md)**
+7.  **[الفصل السادس: ملفات تعريف الأمان (Security Profiles - UTM Features)](Chapter_06_Security_Profiles.md)**
     -   مكافحة الفيروسات ومكافحة برامج التجسس.
     -   نظام منع التسلل (IPS).
     -   تصفية الويب (Web Filtering).
@@ -49,38 +51,38 @@
     -   منع تسرب البيانات (DLP).
     -   أوضاع الفحص (Inspection Modes).
 
-7.  **[الفصل السابع: إدارة النظام والتوافرية العالية (System Management and High Availability)](Chapter_07_System_Management_and_High_Availability.md)**
+8.  **[الفصل السابع: إدارة النظام والتوافرية العالية (System Management and High Availability)](Chapter_07_System_Management_and_High_Availability.md)**
     -   التسجيل والمراقبة (Logging and Monitoring).
     -   التقارير والتنبيهات.
     -   مفاهيم التوافرية العالية (HA).
     -   تكوين HA (Active-Passive).
 
-8.  **[الفصل الثامن: التوجيه المتقدم والشبكات اللاسلكية (Advanced Routing and Wireless Networking)](Chapter_08_Advanced_Routing_and_Wireless_Networking.md)**
+9.  **[الفصل الثامن: التوجيه المتقدم والشبكات اللاسلكية (Advanced Routing and Wireless Networking)](Chapter_08_Advanced_Routing_and_Wireless_Networking.md)**
     -   مفاهيم التوجيه المتقدم (OSPF, BGP, PBR).
     -   الشبكات اللاسلكية (FortiAP).
 
-9.  **[الفصل التاسع: ميزات الأمان المتقدمة (Advanced Security Features)](Chapter_09_Advanced_Security_Features.md)**
+10.  **[الفصل التاسع: ميزات الأمان المتقدمة (Advanced Security Features)](Chapter_09_Advanced_Security_Features.md)**
     -   فحص SSL (SSL Inspection).
     -   الحماية المتقدمة من التهديدات (ATP) و FortiSandbox.
     -   التحكم في الوصول للشبكة (NAC).
     -   التحكم في عرض النطاق الترددي (Bandwidth Control).
 
-10. **[الفصل العاشر: استكشاف الأخطاء وإصلاحها وأدوات التشخيص (Troubleshooting and Diagnostic Tools)](Chapter_10_Troubleshooting_and_Diagnostic_Tools.md)**
+11. **[الفصل العاشر: استكشاف الأخطاء وإصلاحها وأدوات التشخيص (Troubleshooting and Diagnostic Tools)](Chapter_10_Troubleshooting_and_Diagnostic_Tools.md)**
     -   مقدمة إلى استكشاف الأخطاء وإصلاحها.
     -   تتبع مسار الحزم (`diagnose debug flow`).
     -   التقاط الحزم (`diagnose sniffer packet`).
 
-11. **[الفصل الحادي عشر: FortiManager و FortiAnalyzer](Chapter_11_FortiManager_and_FortiAnalyzer.md)**
+12. **[الفصل الحادي عشر: FortiManager و FortiAnalyzer](Chapter_11_FortiManager_and_FortiAnalyzer.md)**
     -   مقدمة إلى FortiManager (الإدارة المركزية).
     -   مقدمة إلى FortiAnalyzer (تجميع السجلات والتقارير).
     -   التكامل بين FortiManager و FortiAnalyzer.
 
-12. **[الفصل الثاني عشر: أمثلة عملية وسيناريوهات تطبيقية (Practical Examples and Scenarios)](Chapter_12_Practical_Examples_and_Scenarios.md)**
+13. **[الفصل الثاني عشر: أمثلة عملية وسيناريوهات تطبيقية (Practical Examples and Scenarios)](Chapter_12_Practical_Examples_and_Scenarios.md)**
     -   تأمين فرع شركة (Branch Office Deployment).
     -   تأمين الوصول عن بُعد (Securing Remote Access).
     -   تأمين تطبيقات الويب (Web Application Security).
 
-13. **[الفصل الثالث عشر: التحضير للامتحان (Exam Preparation)](Chapter_13_Exam_Preparation.md)**
+14. **[الفصل الثالث عشر: التحضير للامتحان (Exam Preparation)](Chapter_13_Exam_Preparation.md)**
     -   أهمية شهادات Fortinet ومسار شهادات NSE.
     -   نصائح للتحضير للامتحان.
     -   مراجعة سريعة لأهم المواضيع.
