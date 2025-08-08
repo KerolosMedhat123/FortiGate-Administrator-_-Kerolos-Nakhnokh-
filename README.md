@@ -8,12 +8,12 @@
 
 ### الفصول المتاحة:
 
-1.  **[الفصل الأول: مقدمة إلى FortiGate](Chapter_01_Introduction_to_FortiGate.md)**
+1.  **[الفصل الأول: مقدمة إلى FortiGate](Chapter_01_Introduction_to_FortiGate.md)** )done( 
     -   تعريف FortiGate ومكانته في عالم الأمن السيبراني.
     -   مقارنة سريعة بين FortiGate و Cisco ASA.
     -   تاريخ Fortinet وعائلة منتجاتها.
 
-2.  **[الفصل الثاني: التكوين الأساسي](Chapter_02_Basic_Configuration.md)**
+2.  **[الفصل الثاني: التكوين الأساسي](Chapter_02_Basic_Configuration.md)** )done( 
     -   الإعدادات الأولية والوصول إلى FortiGate.
     -   أوضاع التشغيل (NAT/Route, Transparent).
     -   تكوين الواجهات (Interfaces) والـ VLANs.
